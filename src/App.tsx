@@ -150,7 +150,7 @@ function App() {
           </p>
           <div className="flex gap-6">
             <a
-              href="danlewismuriuki2@gmail.com"
+              href="mailto:danlewismuriuki2@gmail.com"
               className="px-8 py-4 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-all flex items-center gap-2"
             >
               <Mail size={20} />
@@ -159,12 +159,16 @@ function App() {
             <div className="flex gap-4">
               <a
                 href="https://github.com/danlewismuriuki"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-4 bg-white rounded-lg text-gray-700 hover:text-emerald-600 hover:shadow-lg transition-all"
               >
                 <Github size={24} />
               </a>
               <a
                 href="https://www.linkedin.com/in/danlewismuriuki/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-4 bg-white rounded-lg text-gray-700 hover:text-emerald-600 hover:shadow-lg transition-all"
               >
                 <Linkedin size={24} />
